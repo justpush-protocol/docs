@@ -5,6 +5,7 @@
 ## 💡 Concepts
 
 * [What are Groups?](concepts/groups.md)
+* [Receive Notifications](concepts/receive-notifications.md)
 
 ## 💻 Developer Guides
 
