@@ -4,7 +4,7 @@ A `Group` is a service that can send notifications to its users. A `Group` can b
 
 Any service that wants to send notifications to their users can create a `Group.`Typically dApps in the Tron ecosystem will create a `Group` to send notifications to their users.
 
-The creation of a group happens on-chain. A channel can have one `owner` and multiple `notifiers`. Only the owner of the group can add or remove notifiers. Only `owners` and `notifiers` can send notifications to the group.
+The creation of a group happens on-chain. A group can have one `owner` and multiple `notifiers`. Only the owner of the group can add or remove notifiers. Only `owners` and `notifiers` can send notifications to the group.
 
 A successfully created `Group` is capable of sending notifications to its subscribers directly. These notifications are tied to the subscriber's wallet address. Any wallet address can become a `subscriber` of the Group by opting in.
 
