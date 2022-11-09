@@ -9,6 +9,10 @@ There are several ways to ask users to opt-in to a group.
 ## Using the DApp
 The easiest method is to ask them to use the JustPush DApp. 
 
+{% embed url="https://www.youtube.com/watch?v=2j3EPdJcrvE" %}
+How to subscribe to a Group?
+{% endembed %}
+
 ## Using the SDK (Gassless)
 But sometimes you want to ask users to opt-in to a group from your own DApp. In that case, you can use the JustPush SDK.
 
