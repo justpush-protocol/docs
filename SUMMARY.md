@@ -6,7 +6,7 @@
 
 * [What are Groups?](concepts/groups.md)
 
-## 👨💻 👨💻 Developer Guides
+## 💻 Developer Guides
 
 * [Creating a Group](developer-guides/create-group.md)
 * [Sending Notifications](developer-guides/sending-notifications.md)
