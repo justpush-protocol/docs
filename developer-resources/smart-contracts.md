@@ -8,9 +8,7 @@ You can find the full smart contract code [here](https://github.com/justpush-pro
 
 Deployed contract addresses:
 
-Mainnet: `TXVYVD8uux6EhFPZCUkp8tKxaXn2bRJ7t8`
-
-Shasta: `TZFzjhcPMWnLyqTWf1Emt2A7qxm4FF4J7N`
+Mainnet: **`TMptrmkFrmvc3zHV7c62kHAFka44Ae5ob1`**
 
 The contract is made of 3 interfaces.
 
@@ -139,7 +137,9 @@ interface IJustPushV1 {
         returns (bool);
 }
 ```
+
 ### IBroadcastNotificationSender
+
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.6;

@@ -1,19 +1,21 @@
 # Subscribe to Groups
 
-Users need to opt-in to a group to receive notifications from it. 
+Users need to opt-in to a group to receive notifications from it.
 
 Why? Imagine if anyone could send notifications to anyone else. That would be a spammer's paradise.
 
 There are several ways to ask users to opt-in to a group.
 
 ## Using the DApp
-The easiest method is to ask them to use the JustPush DApp. 
+
+The easiest method is to ask them to use the JustPush DApp.
 
 {% embed url="https://www.youtube.com/watch?v=2j3EPdJcrvE" %}
 How to subscribe to a Group?
 {% endembed %}
 
 ## Using the SDK (Gassless)
+
 But sometimes you want to ask users to opt-in to a group from your own DApp. In that case, you can use the JustPush SDK.
 
 Before continuing you might want to check out the setting up SDK guide. Make sure to pass the `tronWeb` object from `window.tronWeb` to the `JustPush` constructor.
@@ -25,7 +27,6 @@ Before continuing you might want to check out the setting up SDK guide. Make sur
 Once you have set up your SDK, you can use the `subscribe` function as follows.
 
 ```typescript
-
 // tronweb comes from client side. 
 // Users will be prompted to sign a transaction to opt-in to the group.
 const justPush = new JustPush(window.tronWeb as any);
@@ -49,7 +50,6 @@ IJustPushV1(JUSTPUSH_CONTRACT_ADDRESS).subscribe(
 );
 ```
 
-This will use the `tx.origin` adress as the user who is subscribing. 
+This will use the `tx.origin` address as the user who is subscribing.
 
-&#x20;You can find **JUSTPUSH\_CONTRACT\_ADDRESS** on Mainnet or Testnet in the [Smart Contracts Guide](../developer-resources/smart-contracts.md).
-
+You can find **JUSTPUSH\_CONTRACT\_ADDRESS** on Mainnet in the [Smart Contracts Guide](../developer-resources/smart-contracts.md).

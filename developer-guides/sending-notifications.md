@@ -59,7 +59,7 @@ interface IDirectNotificationSender {
 }
 ```
 
-Next, call the function specified in the interface with notification content and the `groupId` you noted down earlier.&#x20;
+Next, call the function specified in the interface with notification content and the `groupId` you noted down earlier.
 
 In the following example. We are sending a broadcast notification.
 
@@ -71,7 +71,7 @@ IBroadcastNotificationSender(JUSTPUSH_CONTRACT_ADDRESS).sendBroadcastNotificatio
 );
 ```
 
-&#x20;You can find **JUSTPUSH\_CONTRACT\_ADDRESS** on Mainnet or Testnet in the [Smart Contracts Guide](../developer-resources/smart-contracts.md).
+You can find **JUSTPUSH\_CONTRACT\_ADDRESS** on Mainnet in the [Smart Contracts Guide](../developer-resources/smart-contracts.md).
 
 ## Using the SDK (Gassless)
 
